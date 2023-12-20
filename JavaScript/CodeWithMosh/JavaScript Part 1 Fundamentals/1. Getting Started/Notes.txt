@@ -1,0 +1,18 @@
+Netflix, Walmart, and Paypal build the entire application around JS.
+Average Salary USD 72,000/year.
+
+JavaScript Today
+(1) Web/Mobile Apps
+(2) Real-time Networking Apps 
+(3) Command-line Tools
+(4) Games
+
+Where does JavaScript run?
+(1) Browser (JavaScript Engine for FireFox=SpiderMonkey & Chrome=v8)
+(2) Node (C++)
+
+JavaScript VS ECMAScript
+ECMAScript = Specification  (ES6 = 2015)
+JavaScript = Programming Language
+
+SEPARATION OF CONCERNS

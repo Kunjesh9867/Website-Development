@@ -1,0 +1,3 @@
+Modularity = Things that are highly related should go together.
+
+This is what we call 'Cohesion' in Engineering

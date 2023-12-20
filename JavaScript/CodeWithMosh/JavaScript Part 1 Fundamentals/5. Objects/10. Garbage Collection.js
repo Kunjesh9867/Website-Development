@@ -1,0 +1,1 @@
+//^ Garbage Collector: Delocate the memory which is not in use

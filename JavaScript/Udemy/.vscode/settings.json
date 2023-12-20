@@ -1,0 +1,6 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "json.schemas": [],
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.port": 5501
+}

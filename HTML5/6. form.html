@@ -1,0 +1,69 @@
+<!-- Alt + downkey : to drag the selected text down  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <h1>******This Form is Created by KUNJESH RAMANI******</h1>
+    <h2>This is HTML FORM tutorial</h2>
+    <!-- TO insert form press [form + enter]  -->
+    <!-- In form tag, ACTION attribute value comprises of backend software that you use ie. python, php   -->
+    <!-- The data inserted into form tag is stored and saved in the backend of the website  -->
+    <!-- NAME attribute is used to inform backend .........  -->
+    <form action="python.py">
+        <label for="xyz"> Name:</label>
+        <div>
+            Name: <input type="text" name="MY_NAME" id="xyz">
+        </div>
+        <!--Press type + enter-->
+        <!-- div tag is serves as break tag. Harry told not to use break tag  -->
+        <br>
+        <!--Here break tag is not recommended to use,  we will achieve this by CSS-->
+        <div>
+            Role: <input type="text" name="MY_ROLE">
+        </div> <br>
+        <div>
+            Email: <input type="email" name="MY_EMAIL">
+        </div> <br>
+        <div>
+            Date: <input type="date" name="MY_DATE" id="">
+        </div> <br>
+        <div>
+            Bonus: <input type="number" name="MY_BONUS" id="">
+            <!--you can include 'e' for exponential-->
+            <div>
+            </div> <br>
+            Are You Eligible? <input type="checkbox" name="MY_ELIGIBILITY" id="">
+            <!-- TO make by default checked use,  -->
+            Are You Eligible? <input type="checkbox" name="MY_ELIGIBILITY" id="" checked>
+        </div> <br>
+        <div>
+            Gender:Male <input type="radio" name="MY_GENDER">
+            Female <input type="radio" name="MY_GENDER">
+            Other <input type="radio" name="MY_GENDER">
+        </div> <br>
+        <div>
+            <label for="car"> Car:</label>
+            <select name="MY_CAR" id="car">
+                <option value="Ferrari"> Ferrari</option>
+                <option value="Lamborghini" selected> Lamborghini</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedes Benz">Mercedes Benz</option>
+                <option value="Bughatti">Bughatti</option>
+            </select>
+        </div> <br>
+        <div>
+            Write About Yourself :- <br> <textarea name="MY_TEXT" cols="30" rows="10"> </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div> <br>
+    </form>
+</body>
+</html>
